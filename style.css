@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+body {
+    margin: 3rem 5% 3rem 5%;
+    /* color: rgb(90, 77, 77); */
+    color: #434242;
+    font-family: 'Outfit', sans-serif;
+}
+h1 {
+    color: rgb(38, 28, 49);
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+h2 {
+    color: #994D1C;
+}
+h1, h2{
+    font-family: 'Young Serif', serif;
+}
+b{
+    font-weight: 600;
+}
+
+img {
+    width: 100%;
+    height: 320px;
+    border-radius: 7px;
+}
+
+.prep_info {
+    background-color: rgb(249, 241, 250);
+    border-radius: 7px;
+    padding: 5px 0 5px 20px;
+    margin-bottom: 30px;
+}
+.prep_info h4 {
+    color: #910A67;
+    font-weight: 600;
+}
+.prep_info li::marker{
+    color: rgb(117, 30, 85);
+}
+li {
+    margin-bottom: 10px;
+}
+li::marker{
+    color: #994D1C;
+    font-weight: 600;
+}
+li span{
+    position: relative;
+    left: 15px;
+}
+
+.instructions {
+    border-bottom: 2px solid #EFECEC;
+    border-top: 2px solid #EFECEC;
+    padding-bottom: 15px;
+}
+.calories {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    border-bottom: 2px solid #EFECEC;
+}
+
+.calories h4:nth-child(even) {
+    color: #994D1C;
+    font-weight: bolder;
+}
+
+.attribution {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 1120px) {
+    img{
+        height: 420px;
+    }
+}
